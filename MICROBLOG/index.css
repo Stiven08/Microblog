@@ -1,0 +1,46 @@
+.fondo{
+    background-color: wheat;
+}
+
+.body{
+    width: 80%;
+    background-color: bisque;
+}
+
+.nav{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 80%;
+    background-color: salmon;
+    margin: 10px;
+}
+
+.navegacion{
+    margin: 10px;
+}
+
+.button{
+    border-radius: 40%;
+    margin: 10px;
+    border: solid wheat;
+    color: gray;
+    background-color: aquamarine;
+    align-items: center;
+    width: 100px;
+}
+
+.button:active{
+    transform: translate(2px);
+}
+
+.text{
+    margin: 10px;
+    text-align: center;
+    width: 40%;
+    padding: 50px;
+    background-color: beige;
+    color: gray;
+}
