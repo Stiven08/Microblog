@@ -1,10 +1,17 @@
 .fondo{
     background-color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .body{
     width: 80%;
     background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav{
@@ -20,6 +27,7 @@
 
 .navegacion{
     margin: 10px;
+    width: 100%;
 }
 
 .button{
@@ -27,9 +35,14 @@
     margin: 10px;
     border: solid wheat;
     color: gray;
-    background-color: aquamarine;
+    background-color: khaki;
     align-items: center;
     width: 100px;
+}
+
+.button:hover{
+    background-color: chocolate;
+    color: antiquewhite;
 }
 
 .button:active{
@@ -43,4 +56,15 @@
     padding: 50px;
     background-color: beige;
     color: gray;
+}
+
+
+.footer{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    background-color: brown;
+    width: 80%;
+    color: antiquewhite;
+    justify-content: center;
 }
